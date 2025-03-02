@@ -14,6 +14,8 @@ SYS_READ equ 0
 SYS_WRITE equ 1
 SYS_OPEN equ 2
 SYS_CLOSE equ 3
+SYS_STAT equ 4
+SYS_LSEEK equ 8
 SYS_BRK equ 12
 SYS_EXIT equ 60
 SYS_UNLINK equ 87
@@ -23,6 +25,8 @@ SYS_CREATE equ 85
 O_RD_ONLY equ 0
 O_WR_ONLY equ 1
 O_RD_WR equ 2
+
+SEEK_SET equ 0
 
 ; File Command Codes
 O_CREAT equ 64
